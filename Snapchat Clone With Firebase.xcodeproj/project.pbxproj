@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		432A85091E40742100A0BA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432A85081E40742100A0BA49 /* AppDelegate.swift */; };
+		432A850B1E40742100A0BA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432A850A1E40742100A0BA49 /* ViewController.swift */; };
+		432A850E1E40742100A0BA49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432A850C1E40742100A0BA49 /* Main.storyboard */; };
+		432A85101E40742100A0BA49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432A850F1E40742100A0BA49 /* Assets.xcassets */; };
+		432A85131E40742100A0BA49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432A85111E40742100A0BA49 /* LaunchScreen.storyboard */; };
+		432A851E1E40742100A0BA49 /* Snapchat_Clone_With_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432A851D1E40742100A0BA49 /* Snapchat_Clone_With_FirebaseTests.swift */; };
+		432A85291E40742100A0BA49 /* Snapchat_Clone_With_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432A85281E40742100A0BA49 /* Snapchat_Clone_With_FirebaseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		432A851A1E40742100A0BA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432A84FD1E40742000A0BA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432A85041E40742000A0BA49;
+			remoteInfo = "Snapchat Clone With Firebase";
+		};
+		432A85251E40742100A0BA49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 432A84FD1E40742000A0BA49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432A85041E40742000A0BA49;
+			remoteInfo = "Snapchat Clone With Firebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432A85051E40742000A0BA49 /* Snapchat Clone With Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapchat Clone With Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432A85081E40742100A0BA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		432A850A1E40742100A0BA49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		432A850D1E40742100A0BA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		432A850F1E40742100A0BA49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		432A85121E40742100A0BA49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		432A85141E40742100A0BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432A85191E40742100A0BA49 /* Snapchat Clone With FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapchat Clone With FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432A851D1E40742100A0BA49 /* Snapchat_Clone_With_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapchat_Clone_With_FirebaseTests.swift; sourceTree = "<group>"; };
+		432A851F1E40742100A0BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		432A85241E40742100A0BA49 /* Snapchat Clone With FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snapchat Clone With FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432A85281E40742100A0BA49 /* Snapchat_Clone_With_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapchat_Clone_With_FirebaseUITests.swift; sourceTree = "<group>"; };
+		432A852A1E40742100A0BA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		432A85021E40742000A0BA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85161E40742100A0BA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85211E40742100A0BA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432A84FC1E40742000A0BA49 = {
+			isa = PBXGroup;
+			children = (
+				432A85071E40742000A0BA49 /* Snapchat Clone With Firebase */,
+				432A851C1E40742100A0BA49 /* Snapchat Clone With FirebaseTests */,
+				432A85271E40742100A0BA49 /* Snapchat Clone With FirebaseUITests */,
+				432A85061E40742000A0BA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		432A85061E40742000A0BA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				432A85051E40742000A0BA49 /* Snapchat Clone With Firebase.app */,
+				432A85191E40742100A0BA49 /* Snapchat Clone With FirebaseTests.xctest */,
+				432A85241E40742100A0BA49 /* Snapchat Clone With FirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		432A85071E40742000A0BA49 /* Snapchat Clone With Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				432A85081E40742100A0BA49 /* AppDelegate.swift */,
+				432A850A1E40742100A0BA49 /* ViewController.swift */,
+				432A850C1E40742100A0BA49 /* Main.storyboard */,
+				432A850F1E40742100A0BA49 /* Assets.xcassets */,
+				432A85111E40742100A0BA49 /* LaunchScreen.storyboard */,
+				432A85141E40742100A0BA49 /* Info.plist */,
+			);
+			path = "Snapchat Clone With Firebase";
+			sourceTree = "<group>";
+		};
+		432A851C1E40742100A0BA49 /* Snapchat Clone With FirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				432A851D1E40742100A0BA49 /* Snapchat_Clone_With_FirebaseTests.swift */,
+				432A851F1E40742100A0BA49 /* Info.plist */,
+			);
+			path = "Snapchat Clone With FirebaseTests";
+			sourceTree = "<group>";
+		};
+		432A85271E40742100A0BA49 /* Snapchat Clone With FirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				432A85281E40742100A0BA49 /* Snapchat_Clone_With_FirebaseUITests.swift */,
+				432A852A1E40742100A0BA49 /* Info.plist */,
+			);
+			path = "Snapchat Clone With FirebaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		432A85041E40742000A0BA49 /* Snapchat Clone With Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432A852D1E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With Firebase" */;
+			buildPhases = (
+				432A85011E40742000A0BA49 /* Sources */,
+				432A85021E40742000A0BA49 /* Frameworks */,
+				432A85031E40742000A0BA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapchat Clone With Firebase";
+			productName = "Snapchat Clone With Firebase";
+			productReference = 432A85051E40742000A0BA49 /* Snapchat Clone With Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		432A85181E40742100A0BA49 /* Snapchat Clone With FirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432A85301E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With FirebaseTests" */;
+			buildPhases = (
+				432A85151E40742100A0BA49 /* Sources */,
+				432A85161E40742100A0BA49 /* Frameworks */,
+				432A85171E40742100A0BA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432A851B1E40742100A0BA49 /* PBXTargetDependency */,
+			);
+			name = "Snapchat Clone With FirebaseTests";
+			productName = "Snapchat Clone With FirebaseTests";
+			productReference = 432A85191E40742100A0BA49 /* Snapchat Clone With FirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		432A85231E40742100A0BA49 /* Snapchat Clone With FirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432A85331E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With FirebaseUITests" */;
+			buildPhases = (
+				432A85201E40742100A0BA49 /* Sources */,
+				432A85211E40742100A0BA49 /* Frameworks */,
+				432A85221E40742100A0BA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				432A85261E40742100A0BA49 /* PBXTargetDependency */,
+			);
+			name = "Snapchat Clone With FirebaseUITests";
+			productName = "Snapchat Clone With FirebaseUITests";
+			productReference = 432A85241E40742100A0BA49 /* Snapchat Clone With FirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		432A84FD1E40742000A0BA49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nathan Johnson";
+				TargetAttributes = {
+					432A85041E40742000A0BA49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					432A85181E40742100A0BA49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 432A85041E40742000A0BA49;
+					};
+					432A85231E40742100A0BA49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 432A85041E40742000A0BA49;
+					};
+				};
+			};
+			buildConfigurationList = 432A85001E40742000A0BA49 /* Build configuration list for PBXProject "Snapchat Clone With Firebase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 432A84FC1E40742000A0BA49;
+			productRefGroup = 432A85061E40742000A0BA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				432A85041E40742000A0BA49 /* Snapchat Clone With Firebase */,
+				432A85181E40742100A0BA49 /* Snapchat Clone With FirebaseTests */,
+				432A85231E40742100A0BA49 /* Snapchat Clone With FirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		432A85031E40742000A0BA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432A85131E40742100A0BA49 /* LaunchScreen.storyboard in Resources */,
+				432A85101E40742100A0BA49 /* Assets.xcassets in Resources */,
+				432A850E1E40742100A0BA49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85171E40742100A0BA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85221E40742100A0BA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		432A85011E40742000A0BA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432A850B1E40742100A0BA49 /* ViewController.swift in Sources */,
+				432A85091E40742100A0BA49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85151E40742100A0BA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432A851E1E40742100A0BA49 /* Snapchat_Clone_With_FirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		432A85201E40742100A0BA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				432A85291E40742100A0BA49 /* Snapchat_Clone_With_FirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		432A851B1E40742100A0BA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432A85041E40742000A0BA49 /* Snapchat Clone With Firebase */;
+			targetProxy = 432A851A1E40742100A0BA49 /* PBXContainerItemProxy */;
+		};
+		432A85261E40742100A0BA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 432A85041E40742000A0BA49 /* Snapchat Clone With Firebase */;
+			targetProxy = 432A85251E40742100A0BA49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		432A850C1E40742100A0BA49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432A850D1E40742100A0BA49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		432A85111E40742100A0BA49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432A85121E40742100A0BA49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		432A852B1E40742100A0BA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		432A852C1E40742100A0BA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		432A852E1E40742100A0BA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Snapchat Clone With Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		432A852F1E40742100A0BA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Snapchat Clone With Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		432A85311E40742100A0BA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Snapchat Clone With FirebaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapchat Clone With Firebase.app/Snapchat Clone With Firebase";
+			};
+			name = Debug;
+		};
+		432A85321E40742100A0BA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Snapchat Clone With FirebaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapchat Clone With Firebase.app/Snapchat Clone With Firebase";
+			};
+			name = Release;
+		};
+		432A85341E40742100A0BA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Snapchat Clone With FirebaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snapchat Clone With Firebase";
+			};
+			name = Debug;
+		};
+		432A85351E40742100A0BA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Snapchat Clone With FirebaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.njohnson.Snapchat-Clone-With-FirebaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Snapchat Clone With Firebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		432A85001E40742000A0BA49 /* Build configuration list for PBXProject "Snapchat Clone With Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432A852B1E40742100A0BA49 /* Debug */,
+				432A852C1E40742100A0BA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432A852D1E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432A852E1E40742100A0BA49 /* Debug */,
+				432A852F1E40742100A0BA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432A85301E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With FirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432A85311E40742100A0BA49 /* Debug */,
+				432A85321E40742100A0BA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		432A85331E40742100A0BA49 /* Build configuration list for PBXNativeTarget "Snapchat Clone With FirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432A85341E40742100A0BA49 /* Debug */,
+				432A85351E40742100A0BA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 432A84FD1E40742000A0BA49 /* Project object */;
+}
