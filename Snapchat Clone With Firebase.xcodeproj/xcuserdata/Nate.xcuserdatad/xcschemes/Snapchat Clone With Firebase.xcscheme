@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "432A85041E40742000A0BA49"
+               BuildableName = "Snapchat Clone With Firebase.app"
+               BlueprintName = "Snapchat Clone With Firebase"
+               ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "432A85181E40742100A0BA49"
+               BuildableName = "Snapchat Clone With FirebaseTests.xctest"
+               BlueprintName = "Snapchat Clone With FirebaseTests"
+               ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "432A85231E40742100A0BA49"
+               BuildableName = "Snapchat Clone With FirebaseUITests.xctest"
+               BlueprintName = "Snapchat Clone With FirebaseUITests"
+               ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "432A85041E40742000A0BA49"
+            BuildableName = "Snapchat Clone With Firebase.app"
+            BlueprintName = "Snapchat Clone With Firebase"
+            ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "432A85041E40742000A0BA49"
+            BuildableName = "Snapchat Clone With Firebase.app"
+            BlueprintName = "Snapchat Clone With Firebase"
+            ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "432A85041E40742000A0BA49"
+            BuildableName = "Snapchat Clone With Firebase.app"
+            BlueprintName = "Snapchat Clone With Firebase"
+            ReferencedContainer = "container:Snapchat Clone With Firebase.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
